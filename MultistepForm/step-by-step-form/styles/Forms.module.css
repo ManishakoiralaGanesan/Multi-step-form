@@ -1,0 +1,66 @@
+.formContainer{
+    margin: 20px;
+    border: 1px solid rgb(224, 221, 221);
+    width: 900px;
+    padding: 30px;
+}
+.inputContainer{
+    margin-top: 50px;
+}
+.inputBox{
+    margin-top: 20px;
+}
+.label{
+    display: block;
+    font-size: 16px;
+}
+.textBox{
+    display:block;
+    margin-top:20px;
+    width: 300pt;
+    padding: 10px;
+    font-size: 16px;
+}
+.radio{
+    margin-top: 20px;
+}
+.prevbutton{
+    width: 150px;
+    padding: 14px;
+    font-size: 16px;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(243, 161, 8);
+    color: white;
+    cursor: pointer;
+
+}
+.prevbutton:disabled{
+    background-color: rgb(159, 159, 157);
+    cursor: not-allowed;
+}
+.nextbutton{
+    width: 150px;
+    padding: 14px;
+    font-size: 16px;
+    background-color: white;
+    float: right;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(243, 161, 8);
+    color: white;
+    cursor: pointer;
+}
+.progressStepActive{
+    background-color: red;
+    color: white;
+}
+
+.buttonBox{
+    margin-top: 80px;
+}
+.inActive{
+    color: black;
+}
